@@ -15,7 +15,10 @@ pipeline {
     }
        stage("This is stage 3") {
       steps {
-        sh 'pwd'
+        sh '''
+              pwd
+              python quickstart.py
+              '''
       }
       }
     
