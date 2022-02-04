@@ -10,7 +10,7 @@ pipeline {
 
     stage("This is stage 2") {
       steps {
-        // Cool stuff goes here!
+        echo 'Cool stuff goes here!'
       }
     }
   }
