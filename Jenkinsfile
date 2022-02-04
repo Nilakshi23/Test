@@ -1,12 +1,17 @@
 pipeline {
-	agent any {
-		stages {
-			stage('Example Build') {
-				steps {
-					git branch: 'main', url: 'https://github.com/Nilakshi23/test2.git'
-				}
-				
-					}
-				}
-			}
-		}
+  agent any
+
+  stages {
+    stage("This is stage 1") {
+      steps {
+        git branch: 'main', url: 'https://github.com/Nilakshi23/Test.git'
+      }
+    }
+
+    stage("This is stage 2") {
+      steps {
+        // Cool stuff goes here!
+      }
+    }
+  }
+}
