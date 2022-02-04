@@ -17,7 +17,8 @@ pipeline {
       steps {
         sh '''
               pwd
-              python quickstart.py
+              pip3 install httplib2
+              python3 quickstart.py
               '''
       }
       }
