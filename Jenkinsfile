@@ -13,5 +13,11 @@ pipeline {
         echo 'Cool stuff goes here!'
       }
     }
+       stage("This is stage 3") {
+      steps {
+        sh 'pwd'
+      }
+      }
+    }
   }
 }
