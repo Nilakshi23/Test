@@ -10,7 +10,7 @@ pipeline {
 
     stage("This is stage 2") {
       steps {
-        echo 'Cool stuff goes here!'
+        python3 quickstart.py
       }
     }
   }
