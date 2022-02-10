@@ -1,8 +1,8 @@
 from jenkinsapi.jenkins import Jenkins
 
 def get_server_instance():
-    jenkins_url = 'http://localhost:8080/'
-    server = Jenkins(jenkins_url, username='nilaxshi', password='1234')
+    jenkins_url = 'http://52.55.241.243:8080/'
+    server = Jenkins(jenkins_url, username='nilaxshi', password='12345')
     return server
     
 def get_job_details():
