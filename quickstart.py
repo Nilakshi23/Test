@@ -39,7 +39,7 @@ def chatbot() :
         	body=dumps(bot_message),
     	)
 
-    	print(response)
+	print(response)
 
 	if __name__ == '__main__':
    		 main()
